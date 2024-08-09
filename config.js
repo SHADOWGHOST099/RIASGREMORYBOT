@@ -20,7 +20,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 global.devs = "233597087405";
 global.sudo = process.env.SUDO || "233597087405";
 global.owner = process.env.OWNER_NUMBER || "233597087405";
-global.style = process.env.STYLE || "1";
+global.style = process.env.STYLE || "5";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
@@ -48,7 +48,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.3.1",
-  caption: process.env.CAPTION || "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬S͓̽M͓̽A͓̽L͓̽L͓̽ B͓̽O͓̽Y͓̽ O͓̽F͓̽F͓̽I͓̽9𝗬",
+  caption: process.env.CAPTION || "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 S͓̽M͓̽A͓̽L͓̽L͓̽ B͓̽O͓̽Y͓̽ O͓̽F͓̽F͓̽I͓̽9𝗬",
   author: process.env.PACK_AUTHER || "ᴛᴏxxɪᴄ ᴍᴅ",
   packname: process.env.PACK_NAME || "GHOST 𝗠𝗗",
   botname: process.env.BOT_NAME || "ᏀᎻϴՏͲ ᏴϴͲ",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "pulbic",
   LANG: (process.env.THEME || "GHOST-BOT™").toUpperCase(),
 };
 global.rank = "updated";
